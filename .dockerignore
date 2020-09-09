@@ -1,0 +1,12 @@
+node_modules
+yarn-*
+npm-*.log
+Makefile
+.eslint*
+.prettier*
+Dockerf*
+docker-compose.yml
+.dockerignore
+.git
+.vscode
+.gitignore

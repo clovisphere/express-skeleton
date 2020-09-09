@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+    node-app:
+        build:
+            context: .
+            dockerfile: ./.devops/node/Dockerfile
+        ports:
+            - "3000:3000"
+        depends_on:
+            - db
+        environment:
+            DATABASE_HOSTNAME: db
+            DATABASE_NAME: demo
+            DATABASE_USERNAME: demo
+            DATABASE_PASSWORD: demo
+        volumes:
+            - ./app:/app
+    db:
+        image: mysql:5.6
+        ports:
+            - "5000:3306"
+        volumes:
+            - ./app/database:/docker-entrypoint-initdb.d/
+        environment:
+            MYSQL_DATABASE: demo
+            MYSQL_RANDOM_ROOT_PASSWORD: "true"
+            MYSQL_USER: demo
+            MYSQL_PASSWORD: demo
