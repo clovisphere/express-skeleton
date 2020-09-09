@@ -27,3 +27,8 @@ $ make up
 ```
 
 *☝🏽 See [Makefile](./Makefile) for details.*
+
+
+Using any of the two methods, your app should be available on [http://localhost:3000](http://localhost:3000)
+
+Enjoy ✌️😎
