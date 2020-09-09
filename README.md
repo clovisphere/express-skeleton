@@ -12,15 +12,15 @@ Things are easier when using [docker](https://www.docker.com/),
 so make sure you have both [docker](https://docs.docker.com/get-docker/) 
 and [docker-compose](https://docs.docker.com/compose/install/) installed.
 
-with [docker](https://docs.docker.com/get-started/) 
+(1) with [docker](https://docs.docker.com/get-started/) 
 
 ```bash
 $ make
 $ make start
 ```
 
-with [docker-compose](https://docs.docker.com/compose/) 
--- _will add both a **Node** and a **MySQL** services (see [docker-compose.yml](./docker-compose.yml))_
+(2) with [docker-compose](https://docs.docker.com/compose/)  -- _it'll create a **Node** and 
+a **MySQL** service (see [docker-compose.yml](./docker-compose.yml))_
 
 ```bash
 $ make up
