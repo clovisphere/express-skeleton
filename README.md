@@ -1,8 +1,16 @@
 # Express skeleton
 
-This is a very basic skeleton for[express](https://expressjs.com/).
+This is a basic [Express](https://expressjs.com/) app skeleton.
 
-##### Usage
+**IMPORTANT**: 
+
+> I am using this to learn [Node](https://nodejs.org/en/) and [Express](https://expressjs.com/), so don't expect anything fancy.
+
+#### Usage
+
+Things are easier when using [docker](https://www.docker.com/), 
+so make sure you have both [docker](https://docs.docker.com/get-docker/) 
+and [docker-compose](https://docs.docker.com/compose/install/) installed.
 
 with [docker](https://docs.docker.com/get-started/) 
 
