@@ -7,7 +7,7 @@
 PORT=3000
 LINK="http://localhost:${PORT}"
 
-## -- When using dockedr -- ##
+## -- When using docker -- ##
 # for help ~> `$ docker --help`
 
 access:
