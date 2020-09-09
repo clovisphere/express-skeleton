@@ -8,6 +8,7 @@ PORT=3000
 LINK="http://localhost:${PORT}"
 
 ## -- When using dockedr -- ##
+# for help ~> `$ docker --help`
 
 access:
 	@echo Accessing container..
@@ -24,6 +25,7 @@ start:
 	@echo Demo app available at ${LINK} 👌
 
 ## -- When using docker-compose -- ###
+# for help ~> `$ docker-compose --help` 
 
 down:
 	@echo Stopping and removing containers.. 🎯
