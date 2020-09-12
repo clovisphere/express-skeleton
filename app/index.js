@@ -1,5 +1,5 @@
-import express from 'express';
-import api from './routes/api/v1/route';
+import express from "express";
+import api from "./routes/api/v1/route";
 
 const app = express();
 const port = 3000;
@@ -8,11 +8,11 @@ const port = 3000;
 const apiV1 = api;
 
 // the most basic route you'd ever write
-app.get('/', (req, res) => {
-  res.send('Hello from express');
+app.get("/", (req, res) => {
+  res.send("Hello from express");
 });
 
-app.use('/api/v1', apiV1);
+app.use("/api/v1", apiV1);
 
 app.listen(port, () => {
   // eslint-disable-next-line no-console
